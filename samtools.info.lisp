@@ -1,0 +1,7 @@
+(:name           "samtools")
+(:repo           "taffish-org/samtools")
+(:author         "KaiyuanHan")
+(:version        "1.21")
+(:intro          "Tools (written in C using htslib) for manipulating next-generation sequencing data.")
+(:dependencies)
+(:functions      "samtools")

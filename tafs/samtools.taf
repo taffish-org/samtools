@@ -1,0 +1,9 @@
++TOOL:samtools
+ARGS
+    <else>
+        samtools --help
+    <main>
+        samtools ::*APP-ARGS*::
+RUN
+    <container:taf-samtools-v1.21:ghcr.io/taffish-org/samtools:1.21>
+        ::*MAIN*::
